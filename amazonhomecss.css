@@ -1,0 +1,507 @@
+body{
+    margin:auto;
+    background-color:#ecdece;;
+}
+
+.headermain{
+    background-color:#131921;
+    height: 60px;
+}
+#headerlogo{
+    height: 35px;
+    margin-top: 17px;
+    margin-left: 20px;
+}
+#headertitle{
+    color: #ffffff;
+    margin-top: -36px;
+    margin-left: 118px;
+}
+#headerlocation{
+    margin-left: 160px;
+    margin-top: -13;
+}
+#headerlocation a{
+    text-decoration: none;
+}
+#location{
+    color: white;
+}
+#headerlocation p{
+    letter-spacing: 1px;
+    line-height: 1mm;
+}
+#locationtext{
+    margin-left: 20px;
+    margin-top: -28px;
+}
+#locationtext1{
+    color:#ccc ;
+    font-size: 12px;
+    font-weight: 400;
+}
+#locationtext2{
+    color:#f8fbff ;
+    font-size: 14px;
+    line-height: 14px;
+    font-weight: 700;
+    
+}
+#searchbar{
+    height: 40px;
+    width:789.5px;
+    border: 2px solid white;
+    background-color: white;
+    margin-top: -45px;
+    margin-left: 350px;
+    border-radius: 5px;
+}
+
+#searchbar p{
+    color: white;
+}
+#dropdownMenuButton{
+    height: 37px;
+    width: auto;
+    border:none;
+    border-radius: 0%;
+}
+#dropdownul{
+    height: 250px;
+    overflow: scroll;
+
+}
+.dropdown button{
+    color:#666666;
+    background-color:#f3f3f3;
+    font-size: small;
+    float: left;
+}
+#searchbox{
+    width: 690px;
+    float: left;
+}
+#searchbox input{
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: hidden;
+
+}
+#search{
+    border-radius: 0%;
+}
+
+#button2{
+    height: 37px;
+    width: auto;
+   border-radius: 0%;
+   background-color: #febd69;
+}
+#buttondiv3{
+    margin-left: 70px;
+    height: 60px;
+    margin-top: -50px;
+}
+#button3{
+    background-color:#131921;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: hidden;
+    margin-top: 5px;
+    margin-left: 20px;
+    
+}
+#button3  #p1{
+    font-size: small;
+}
+#button3  #p2{
+    font-size: medium;
+    font-weight: bold;
+}
+#headerbuttondiv{
+    height: 60px;
+    border: none;
+}
+#button4{
+    width: 200px;
+    margin-top: -5px;
+    margin-left: 20px;
+    background-color: #f3cf72;
+    color: #131921;
+}
+#headerbuttondiv p{
+    margin-left: 22%;
+    font-size: 12px;
+}
+#headerbuttondiv a{
+    text-decoration: none;
+}
+.headerorder{
+    height: 45px;
+    width: 100px;
+    margin-left: 85%;
+    margin-top: -52px;
+}
+.headerorder a{
+    text-decoration: none;
+}
+.headerorder span{
+    color: #f3f3f3;
+    margin-left: 12%;
+    font-size: small;
+}
+.headerorder h6{
+    margin-left: 14%;
+    font-weight: bold;
+}
+.headerreturn{
+    height: 45px;
+    width: 100px;
+    margin-left: 92%;
+    margin-top: -45px;
+}
+.headerreturn a{
+   text-decoration: none;
+}
+.headerreturn img{
+    height: 2.5em;
+    margin-left: 15px;
+    margin-top: 1px;
+}
+.headerreturn span{
+    font-size: 15px;
+    color: #f3f3f3;
+    font-weight: bold;
+}
+/*END OF HEADER CSS*/
+
+/*START OF NAVIGATION BAR*/
+
+.nav{
+    height: 30px;
+    width: 100%;
+    background-color: #232f3e;
+    position: absolute;
+}
+.nav a{
+    text-decoration: none;
+}
+.nav div{
+    height: 27px;
+}
+.btn{
+    background-color:#232f3e;
+    border: none;
+}
+#navimg{
+    height: 1.8em;
+    width: 30px;
+    margin-top: -3px;
+}
+#span1{
+    font-weight: bold;
+    font-size: 13px;
+}
+#navdropdowndiv{
+    width: 400px;
+    height:654px;
+    border-radius: 0;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+#dropdownheading{
+    width: 398px;
+    height: 40px;
+    background-color: #232f3e;
+}
+#dropdownheading img{
+    height: 22px;
+    margin-left: 25px;
+}
+#dropdownmaintitles{
+    font-weight: bolder;
+    font-size: large;
+    color: #131921;
+    margin-left: 5%;
+}
+.dropdownitems{
+    margin-left: 0.5%;
+    font-size:medium;
+    font-weight: 500;
+
+}
+#allitem{
+    color: #131921;
+    margin-left: 4.4%;
+}
+#headspan{
+    font-weight: bold;
+    font-size:large;
+    color: #ffffff;
+}
+.navspan{
+    padding-left: 21px;
+    color: #f3f3f3;
+    font-size:14px;
+    font-weight:500;
+    margin-top: 4px;
+}
+/* END OF NAVIGATION BAR*/
+
+/* START OF CAROUSAL*/
+.carousal{
+    width: 100%;
+    background-color: #232f3e;
+    margin-top: 30.79px;
+}
+.carousal img{
+    width: 400px;
+    height:280px;
+}
+
+/* END OF CAROUSAL*/
+
+/* START OF CARDS */
+
+.card{
+    height:auto;
+    width:auto;
+    background-color: #ecdece;
+}
+#card1{
+    background-color: #f3f3f3;
+    height: 400px;
+    width: 350px;
+    margin-top: 1%;
+    margin-left: 30px;
+
+}
+#card1 span{
+    margin-left:50px;
+    font-weight:bold;
+    color: black;
+}
+.card1innercard{
+    height:150px;
+    width: 160px;
+    margin-top: 10px;
+    margin-left: 1px;
+    float: left;
+    
+}
+.card1innercard a{
+    text-decoration: none;
+}
+.card1images{
+    height: 100%;
+    width: 100%;
+}
+.innercardspan{
+    font-size: 10px;
+    color:grey;
+    font-weight: lighter;
+}
+
+#card2{
+    background-color:  #f3f3f3;
+    height: 400px;
+    width: 350px;
+    margin-top: 1%;
+    margin-left: 30px;
+}
+
+#card2 span{
+    margin-left:60px;
+    font-weight:bold;
+    color: black;
+}
+.card2innercard{
+    height:150px;
+    width: 160px;
+    margin-top: 10px;
+    margin-left: 1px;
+    float: left;
+    
+}
+.card2innercard a{
+    text-decoration: none;
+}
+.card2images{
+    height: 100%;
+    width: 100%;
+}
+.innercard2span{
+    font-size: 11px;
+    color:grey;
+    font-weight: lighter;
+}
+#card3{
+    background-color:  #f3f3f3;
+    height: 400px;
+    width: 350px;
+    margin-top: 1%;
+    margin-left: 30px;
+}
+
+#card3 span{
+    margin-left:45px;
+    font-weight:bold;
+    color: black;
+}
+#card3 img{
+    width: 300px;
+    height: 350px;
+    margin-top: 10px;
+    margin-left: 12px;
+}
+
+#card4{
+    background-color:  #f3f3f3;
+    height: 400px;
+    width: 350px;
+    margin-top: 1%;
+    margin-left: 30px;
+}
+#card4 span{
+    margin-left:130px;
+    font-weight:bold;
+    color: black;
+}
+#card4 img{
+    width: 300px;
+    height: 350px;
+    margin-top: 10px;
+    margin-left: 12px;
+}
+
+/* SECOND ROW CARDS*/
+.innercard5span{
+    font-weight: lighter;
+    font-size: 11px;
+    padding: 1%;
+}
+#innercard5span2{
+    padding-left: 16ex;
+    font-weight: lighter;
+    font-size: 10px;
+}
+#card6span1{
+    padding-left: 6ex;
+    font-weight: lighter;
+    font-size: 10px;
+}
+#card6span2{
+    padding-left: 14ex;
+    font-weight: lighter;
+    font-size: 10px;
+}
+#card6span4{
+    padding-left: 15ex;
+    font-weight: lighter;
+    font-size: 10px;
+}
+#card7span1{
+    font-weight: lighter;
+    font-size: 10px;
+}
+#card7span2{
+    padding-left: 1ex;
+    font-weight: lighter;
+    font-size: 10px;
+}
+#card7span4{
+    padding-left: 16ex;
+    font-weight: lighter;
+    font-size: 10px;
+}
+
+/*                                                       ROW3                                              */
+#row3 span{
+    margin-left:555px;
+    font-weight:bold;
+    color: black;
+}
+#row3div1{
+    height: 200px;
+    border: 1px solid white;
+    background-color:  #f3f3f3;
+}
+#row3div2{
+    height: 200px;
+    border: 1px solid white;
+    background-color:  #f3f3f3;
+}
+#row3div3{
+    height: 200px;
+    border: 1px solid white;
+    background-color:  #f3f3f3;
+}
+#row3div4{
+    height: 200px;
+    border: 1px solid white;
+    background-color:  #f3f3f3;
+}
+#row3div5{
+    height: 200px;
+    border: 1px solid white;
+    background-color:  #f3f3f3;
+}
+#row3div6{
+    height: 200px;
+    border: 1px solid white;
+    background-color:  #f3f3f3;
+}
+.row3img{
+    height: 180px;
+    width: 210px;
+    margin-left: 5%;
+    margin-top: 3%;
+}
+
+
+
+
+
+/*                                         FOOTER                                                */
+
+
+footer{
+    width: 100%;
+    height: 282px;
+    background-color:#232f3e;
+    margin-top: auto;
+    margin-top: 1%;
+   }
+   .footercontent{
+       width: 15%;
+       margin-left: 10%;
+       margin-top: 1%;
+       float: left;
+       margin-top: 2%;
+   
+   }
+   .footercontent span{
+       font-weight: bolder;
+       color: white;
+   }
+   .footercontent a{
+   text-decoration: none;
+   }
+   .footercontent p{
+       font-weight:lighter;
+       color: #d7dddd;
+   }
+   .footercontent .fa{
+       font-size: 25px;
+       width: 35px;
+       height: 35px;
+       text-align: center;
+       text-decoration: none;
+       border-radius: 50%;
+   }
+   
+
+
+
