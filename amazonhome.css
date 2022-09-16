@@ -1,11 +1,11 @@
 body{
     margin: auto;
     background-color: #ecdece;
+    overflow-x: hidden;
 }
 .maindiv{
     width: 100%;
     background-color: #ecdece;
-    overflow-x: scroll;
 }
 
 .headermain{
@@ -527,4 +527,4 @@ footer{
        text-decoration: none;
        border-radius: 50%;
    }
-   
+ 
