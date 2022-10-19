@@ -1,8 +1,13 @@
 body{
     margin: auto;
-    background-color: #ecdece;
+    background-color:black;
+    color: black;
     overflow-x: hidden;
 }
+.mydark{
+    background-color: orange;
+}
+
 #coupon{
     height: 500px;
     width: 500px;
@@ -38,11 +43,6 @@ body{
     font-weight: bolder;
     
 }
-.maindiv{
-    width: 100%;
-    background-color: #ecdece;
-}
-
 .headermain{
     background-color:#131921;
     height: 60px;
@@ -199,7 +199,7 @@ body{
 .headerreturn{
     height: 45px;
     width: 100px;
-    margin-left: 92%;
+    margin-left: 90%;
     margin-top: -45px;
 }
 .headerreturn a{
@@ -214,6 +214,11 @@ body{
     font-size: 15px;
     color: #f3f3f3;
     font-weight: bold;
+}
+#darklight{
+    position: relative;
+    margin-top: -31%;
+    margin-left:100%;
 }
 /*END OF HEADER CSS*/
 
@@ -260,7 +265,7 @@ body{
     height: 22px;
     margin-left: 25px;
 }
-#dropdownmaintitles{
+#dropdowntitles{
     font-weight: bolder;
     font-size: large;
     color: #131921;
@@ -305,11 +310,7 @@ body{
 
 /* START OF CARDS */
 
-.card{
-    height:auto;
-    width:auto;
-    background-color: #ecdece;
-}
+
 #card1{
     background-color: #f3f3f3;
     height: 400px;
