@@ -511,7 +511,7 @@ body{
 footer{
     width: 100%;
     height: 60%;
-    background-color:#232f3e;
+    background-color: #232f3e;
     margin-top: auto;
     margin-top: 1%;
    }
@@ -532,14 +532,14 @@ footer{
   }
    .footercontent{
        width: 15%;
-       margin-left: 55px;
+       margin-left: 25px;
        margin-top:1%;
        float: left;
        margin-top: 2%;
    
    }
 #footerdiv1{
-    margin-left: 222px;
+    margin-left: 150px;
 }
    .footercontent span{
        font-weight:bolder;
@@ -563,4 +563,9 @@ footer{
        text-decoration: none;
        border-radius: 50%;
    }
- 
+ #weathericon{
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    color: chartreuse;
+ }

@@ -14,3 +14,11 @@ function changemode(){
     mybody.classList.toggle('mydark');
 
 }
+
+
+
+
+
+
+
+
