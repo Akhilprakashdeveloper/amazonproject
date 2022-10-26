@@ -532,14 +532,14 @@ footer{
   }
    .footercontent{
        width: 15%;
-       margin-left: 10px;
+       margin-left: 4%;
        margin-top:1%;
        float: left;
        margin-top: 2%;
    
    }
 #footerdiv1{
-    margin-left: 120px;
+    margin-left: 8%;
 }
    .footercontent span{
        font-weight:bolder;
